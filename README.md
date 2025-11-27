@@ -7,8 +7,9 @@ Neural operators are deep learning architectures designed to learn mappings betw
 This project evaluates multiple neural-operator variants on 1D, 2D, and 3D PDE datasets, comparing their accuracy, generalization, and computational performance.
 
 ## Repository Structure
-/data/ # PDE datasets (inputs/outputs)
-/models/ # Model definitions (FNO, low-rank, custom variants)
-/utilities*.py # Data loading, preprocessing, metrics, visualization
-/*.ipynb # Experiment notebooks for each PDE and model type
-model_comparison.ipynb # Summary comparison of all models
+```text
+data/                    # PDE datasets (inputs/outputs)
+models/                  # Model definitions (FNO, low-rank, custom variants)
+utilities*.py            # Data loading, preprocessing, metrics, visualization
+*.ipynb                  # Experiment notebooks for each PDE and model type
+model_comparison.ipynb   # Summary comparison of all models
