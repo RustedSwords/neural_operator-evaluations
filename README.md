@@ -9,6 +9,7 @@ This project evaluates multiple neural-operator variants on 1D, 2D, and 3D PDE d
 ## Repository Structure
 ```text
 data/                    # PDE datasets (inputs/outputs)
+dataset/                 # Generates PDE datasets
 models/                  # Model definitions (FNO, low-rank, custom variants)
 utilities*.py            # Data loading, preprocessing, metrics, visualization
 *.ipynb                  # Experiment notebooks for each PDE and model type
